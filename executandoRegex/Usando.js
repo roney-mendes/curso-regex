@@ -2,8 +2,8 @@ const texto = '0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f'
 
 const regexNove = RegExp('9')
 console.log('Métodos da RegExp...')
-console.log(regexNove.test(texto))
-console.log(regexNove.exec(texto))
+console.log(regexNove.test(texto)) // Retorna o true se a expressão encontrou algo
+console.log(regexNove.exec(texto)) // Retorna um array do valor encontrado, index e onde está localizado
 
 const regexLetras = /[a-f]/g
 console.log('Métodos da string...')
